@@ -1,0 +1,71 @@
+{
+  "name": "in_process_api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ardrive/turbo-sdk": "^1.22.1",
+    "@coinbase/cdp-sdk": "^1.13.0",
+    "@coinbase/coinbase-sdk": "^0.21.0",
+    "@stackso/js-core": "^0.5.11",
+    "@supabase/supabase-js": "^2.50.0",
+    "@types/node-telegram-bot-api": "^0.64.8",
+    "@uniswap/sdk-core": "^7.7.2",
+    "@uniswap/v3-sdk": "^3.25.2",
+    "@vercel/og": "^0.6.5",
+    "@zoralabs/protocol-deployments": "^0.3.8",
+    "abitype": "^1.0.8",
+    "alchemy-sdk": "^3.5.9",
+    "arbundles": "^0.11.2",
+    "arweave": "^1.15.5",
+    "image-meta": "^0.2.1",
+    "link-preview-js": "^3.0.14",
+    "multiformats": "^13.3.1",
+    "next": "13.5.6",
+    "node-telegram-bot-api": "^0.66.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "semver": "^7.6.3",
+    "sonner": "^2.0.1",
+    "viem": "^2.21.45",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/semver": "^7.5.8",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "bigint-buffer",
+      "bufferutil",
+      "keccak",
+      "protobufjs",
+      "secp256k1",
+      "sharp",
+      "tiny-secp256k1",
+      "utf-8-validate"
+    ],
+    "onlyBuiltDependencies": [
+      "bigint-buffer",
+      "bufferutil",
+      "core-js",
+      "es5-ext",
+      "keccak",
+      "protobufjs",
+      "secp256k1",
+      "sharp",
+      "tiny-secp256k1",
+      "utf-8-validate"
+    ]
+  }
+}
